@@ -1,0 +1,22 @@
+.box{
+    width: 500px;
+    margin: auto;
+    align-items: center;
+}
+.box input{
+ width: 300px;
+
+
+}
+.box h2{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.box button{
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}

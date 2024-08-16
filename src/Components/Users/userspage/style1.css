@@ -1,0 +1,53 @@
+.box1{
+    width: 300px;
+    height: 1000px;
+    position: absolute;
+    top: 60px;
+    left: 20;
+    background-color: blue;
+    padding-top: 0;
+    
+    
+}
+.box1 .link1 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+
+    color: white;
+}
+.box1 .link2 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+
+    color: white;
+}
+.box1 .link3 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+
+    color: white;
+}
+.box1 .link4 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+
+    color: white;
+}
+.box1 .link5 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+
+    color: white;
+}
+.box1 .link6 {
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 100px;
+
+    color: white;
+}

@@ -1,0 +1,210 @@
+@media screen and (min-width: 700px){
+    .header{
+        background-color: rgba(33, 33, 115, 0.941);
+        color: white;
+        display: flex;
+        align-items: center;
+    
+    }
+    .header span{
+        margin-left: 5px;
+        
+        align-items: center;
+        cursor: pointer;
+    }
+   
+    .header i{
+        margin-left: 60px;
+        cursor: pointer;
+    }
+    .container-fluid .logo{
+        width: 90%;
+        padding-left: 32px;
+        text-align: center;
+    }
+    .img1{
+        width: 70%;
+    }
+    .navbar{
+        background-color: rgba(33, 33, 115, 0.941);
+        color: white;
+    }
+    .navbar ul{
+      padding-left: 260px;
+      font-size: 17px;
+    }
+    .navbar ul li  a{
+        color: white;
+   
+    }
+   ol{
+    list-style-type: lower-latin;
+    display: flex;
+    gap: 30px;
+   }
+    
+    .navbar-brand {
+        display: none;
+        margin-right: 12px;
+        
+        /* Hide by default */
+      }
+      .container-fluid{
+        margin-left: 0;
+        margin-right: 12px;
+        padding: 0;
+      }
+      .slide{
+        position: relative;
+      }
+      .btn1{
+        position: absolute;
+        border: none;
+        background-color: darkblue;
+        color: #ffff;
+        left: 200px;
+        padding-top: 7px;
+        
+      }
+      .img3{
+        height: 560px;
+      }
+      p{
+        animation-name: run;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        
+       
+       
+
+        
+
+      }
+
+      @keyframes run{
+      from{
+        margin-left: 59%;
+      }
+      to{
+        margin-left: 20%;
+      }
+
+      
+      }
+      .card img{
+        width: 600px;
+        height: 300px;
+        background-color: rgba(245, 222, 179, 0.715);
+      }
+
+       .table-bordered tr:nth-child(even){
+        background-color: lightblue;
+       
+      }
+      table, td,th{
+        border: 1px solid black;
+        font-family: "Roboto", sans-serif;
+      }
+
+      table tr:nth-child(even){
+        background-color: lightblue;
+      }
+      table tr:nth-child(odd){
+        background-color: white;
+      }
+      table{
+        margin-left: 30px;
+        margin-top: 100px;
+      }
+      table td a{
+        border: none;
+        outline: none;
+      }
+
+      .card-body .card3-text{
+        position: absolute;
+        top: 350px;
+        left: 500px;
+        text-wrap: 50%;
+        margin-right: 300px;
+      }
+      .card-body .card4-text{
+        position: absolute;
+        top: 450px;
+        left: 500px;
+        text-wrap: 50%;
+        margin-right: 300px;
+      }
+      .card-body .card5-text{
+        position: absolute;
+        top: 580px;
+        left: 500px;
+        text-wrap: 50%;
+        margin-right: 300px;
+      }
+      .card-body pre{
+        position: absolute;
+        top: 620px;
+        left: 500px;
+        text-wrap: 50%;
+        margin-right: 300px;
+      }
+
+      .photo1{
+        width: 200px;
+        height: 130px;
+        border: 1px solid black;
+        margin-left: 550px;
+        margin-top: 30px;
+
+        
+      }
+  
+  
+    
+
+     
+}
+
+
+@media (max-width: 699px) {
+    .header{
+        background-color: rgba(33, 33, 115, 0.941);
+        color: white;
+    
+    }
+    .header span{
+        margin: 0;
+        
+        align-items: center;
+    }
+   
+    .header i{
+        margin-left: 0px;
+    }
+
+    
+    .navbar{
+        background-color: rgba(33, 33, 115, 0.941);
+        color: white;
+    }
+    .navbar ul li  a{
+        color: white;
+    }
+    .img1{
+        width: 80%;
+        
+
+    }
+    .container-fluid{
+        margin-left: 0;
+        margin-right: 12px;
+        padding: 0;
+      }
+   
+   
+      .navbar-toggler-icon{
+        color: #ffff;
+      }
+       
+}
