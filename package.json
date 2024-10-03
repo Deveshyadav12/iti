@@ -2,10 +2,10 @@
   "name": "iti",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Deveshyadav12.github.io",
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@faceio/fiojs": "^1.1.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
@@ -22,10 +22,11 @@
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0",
+    "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.12",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -26,7 +26,7 @@ const navItems = [
   { label: 'Courses', to: '/admin/courses' },
   { label: 'Admins', to: '/admin/adminlist' },
   { label: 'Fees', to: '/admin/fees' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'Contact', to: '/admin/contacts' },
   { label: 'Logout' },
 ];
 

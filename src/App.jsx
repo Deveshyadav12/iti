@@ -26,10 +26,9 @@ import Fees from './Components/Students/fees';
 import Schemes from './Components/TradesCTS/Schemes';
 import Trades from './Components/TradesCTS/Trades';
 import Technical from './Components/Staff/Technical';
-import LoginPage from './Components/Users/auth/LoginPage';
+import LoginPage from './Components/Users/auth/Login';
 import AdminDashboard from './Components/Users/userspage/AdminDashboard';
 import Register from './Components/Users/auth/register';
-import FaceRecognitionLogin from './Components/Users/auth/Face';
 import Adminlist from './Components/Users/userspage/Adminlist';
 import AddAdmin from './Components/Users/userspage/AddAdmin';
 import About1 from './Components/Users/userspage/About';
@@ -39,12 +38,17 @@ import AdministrativeStaff from './Components/Staff/AdministrativeStaff';
 import StaffAttendence from './Components/Staff/StaffAttendence';
 import InstructorAchievement from './Components/Staff/InstructorAchievement';
 import InstructorAwards from './Components/Staff/InstructorAwards';
+import Students from './Components/Users/userspage/SidenavbarComponents/Students';
+import Contacts from './Components/Users/userspage/SidenavbarComponents/Contacts';
+import Staff from './Components/Users/userspage/SidenavbarComponents/Staff';
+import Attendance1 from './Components/Users/userspage/SidenavbarComponents/Attendance';
+import Login from './Components/Users/auth/Login';
 
 function App() {
   return (
    <>
     <Router>
-      <div>
+      
            {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Routes>
@@ -73,18 +77,11 @@ function App() {
           <Route path="/InstructorAchievements" element = {<InstructorAchievement />} />
           <Route path="/InstructorAwards" element = {<InstructorAwards />} />
 
-          <Route exact path="/admin/login" element={<LoginPage />} />
-          <Route path="/admin/Dashboard" element={<AdminDashboard />} />
-          <Route path="/admin/Adminlist" element={<Adminlist />} />
-          <Route path="/admin/addadmin" element={<AddAdmin />} />
-          <Route path="/admin/about" element={<About1 />} />
-          <Route path="/admin/fees" element={<Fees1 />} />
-          <Route path="/admin/Courses" element={<Courses />} />
-          
+        <Route path="/admin/login" element={<Login  />} />
+        <Route path="/admin/AdminDashboard" element={<AdminDashboard />} />
+        
 
-         
-        </Routes>
-      </div>
+      </Routes>
     </Router>
    </>
   );

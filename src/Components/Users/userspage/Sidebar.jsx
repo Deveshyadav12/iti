@@ -12,7 +12,7 @@ const Sidebar = () => {
         </div>
         <hr/>
         <div className='link6'>
-        <Link style={{textDecoration: "none", color: "white"}} to="#">Students</Link>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/students">Students</Link>
         </div>
         <hr/>
         <div className='link2'>
@@ -27,8 +27,28 @@ const Sidebar = () => {
         <Link style={{textDecoration: "none", color: "white"}} to="/admin/fees">Fees</Link>
         </div>
         <hr/>
+        <div className='link4'>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/staff">Staff</Link>
+        </div>
+        <hr/>
+        <div className='link4'>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/result">Results</Link>
+        </div>
+        <hr/>
+        <div className='link4'>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/Attendance">Attendance</Link>
+        </div>
+        <hr/>
+        <div className='link4'>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/placement">Placements</Link>
+        </div>
+        <hr/>
+        <div className='link4'>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/facilities">Facilities</Link>
+        </div>
+        <hr/>
         <div className='link5'>
-        <Link style={{textDecoration: "none", color: "white"}} to="#">Contacts</Link>
+        <Link style={{textDecoration: "none", color: "white"}} to="/admin/contacts">Contacts</Link>
         </div>
 
             
